@@ -2,9 +2,14 @@
 
 @import "base/base";
 @import "base/typography";
+@import "base/utilities";
 
 @import "components/navbar";
 @import "components/btns";
 @import "components/featured-in";
+@import "components/stat";
 
 @import "layouts/hero";
+@import "layouts/stats";
+
+@import "pages/home";
