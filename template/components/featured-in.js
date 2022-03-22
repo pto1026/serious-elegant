@@ -18,11 +18,7 @@ export default function FeaturedIn() {
           alt="Logoipsum"
           className="featured-in__logo"
         />
-        <img
-          src="icons/logoipsum-logo-7.svg"
-          alt="Logoipsum"
-          className="featured-in__logo"
-        />
+       
       </div>
     </div>
   );

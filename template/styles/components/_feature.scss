@@ -1,0 +1,35 @@
+.feature {
+    background-color: var(--main-color-dark);
+    border-radius: .5rem;
+    border: var(--border);
+    padding: 2.4rem 1.2rem;
+    transition: all .4s;
+    &__icon {
+        background-color: #fff;
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 50%;
+        box-sizing: content-box;
+        padding: .3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        color: #fff;
+        line-height: 1.6;
+        margin-left: 3.2rem;
+
+        &::first-letter {
+            font-size: 3.2rem;
+        }
+        &::first-line {
+            line-height: 1.3
+        }
+    }
+
+    &:hover {
+        transform: translateY(-2rem);
+        box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.15);
+    }
+}
