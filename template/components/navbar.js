@@ -18,7 +18,7 @@ export default function Navbar() {
           <a href="#">Contact</a>
         </li>
       </ul>
-      <h2 className="navbar__name">Winston's</h2>
+      <h2 className="navbar__name">Winston&apos;s</h2>
       <a href="#" className="navbar__btn btn btn--primary">
         Request a service
       </a>

@@ -8,7 +8,7 @@ export default function Hero() {
               Your personal import/export service
             </h1>
             <p className="hero__paragraph">
-              Whether it's cars, women, guns, drugs... We'll ship{" "}
+              Whether it&apos;s cars, women, guns, drugs... We&apos;ll ship{" "}
               <span className="hero__em">anything!</span>
             </p>
             <a href="#" className="btn btn--primary">
